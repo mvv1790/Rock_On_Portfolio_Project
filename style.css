@@ -1,0 +1,21 @@
+* {
+    margin: 2px;
+    padding: 2px;
+    border: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav_bar li {
+    float: right;
+    text-decoration: none;
+}
+
+.nav_bar a {
+    display: inline;
+    text-decoration: none;
+}

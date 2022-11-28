@@ -12,10 +12,27 @@ body {
 
 .nav_bar li {
     float: right;
-    text-decoration: none;
+    list-style-type: none;
 }
 
 .nav_bar a {
     display: inline;
     text-decoration: none;
+}
+
+.img_one {
+    float: right;
+}
+
+.images{
+    display: flex;
+}
+
+.images h2 {
+    text-align: center;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
 }

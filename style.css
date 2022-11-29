@@ -4,9 +4,14 @@
     border: none;
 }
 
+.header {
+    background-color: gray;
+    padding: 20px;
+    margin: 80px;
+}
+
 body {
     font-family: 'Lato', sans-serif;
-
     font-family: 'Oswald', sans-serif;
 }
 
@@ -18,14 +23,22 @@ body {
 .nav_bar a {
     display: inline;
     text-decoration: none;
+    background-color: gray;
 }
 
 .img_one {
     float: right;
 }
 
+h2 {
+    text-align: center;
+}
+
 .images{
     display: flex;
+    background-color: gray;
+    padding: 20px;
+    margin: 80px;
 }
 
 .images h2 {
@@ -35,4 +48,29 @@ body {
 .column {
     flex: 33.33%;
     padding: 5px;
+}
+
+.quote {
+    background-color: gray;
+    padding: 20px;
+    margin: 80px;
+}
+
+.customer {
+    background-color: gray;
+    padding: 20px;
+    margin: 80px;
+}
+
+.btn_one, .btn_two {
+    border-radius: 8%;
+    padding: 2px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #3882F6;
+    color: white;
+    }
+
+.btn_two {
+    border: 1px solid white;
 }

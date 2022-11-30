@@ -1,13 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 * {
     margin: 2px;
     padding: 2px;
     border: none;
-}
-
-.header {
-    background-color: gray;
-    padding: 20px;
-    margin: 80px;
 }
 
 body {
@@ -15,19 +11,46 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.header {
+    background-color: #1F2937;
+    padding: 80px;
+    margin: 80px;
+    color: #F9FAF8;
+}
+
+.logo {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .nav_bar li {
-    float: right;
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    display: inline;
     list-style-type: none;
 }
 
 .nav_bar a {
     display: inline;
     text-decoration: none;
-    background-color: gray;
+    color: #F9FAF8;
+}
+
+.nav_bar a:hover {
+    color: pink;
+}
+
+.hero_h1 {
+    font-size: 48px;
+    font-weight: 900;
+    
 }
 
 .img_one {
+    justify-items: center;
     float: right;
+    border: 2px solid black;
 }
 
 h2 {
@@ -36,14 +59,10 @@ h2 {
 
 .images{
     display: flex;
-    background-color: gray;
     padding: 20px;
     margin: 80px;
 }
 
-.images h2 {
-    text-align: center;
-}
 
 .column {
     flex: 33.33%;
@@ -73,4 +92,40 @@ h2 {
 
 .btn_two {
     border: 1px solid white;
+}
+
+/* social network styling */
+
+footer {
+    background-color: #1F2937;
+    margin: 80px;
+    height: 120px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    justify-content: center;
+    font-size: 200%;
+    color: white;
+}
+
+.owner {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: pink;
 }

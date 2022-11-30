@@ -42,12 +42,26 @@
                 <img src="/assets/images/tele(1).jpg" alt="">
         </section>
         <section class="quote">
-            <p>This is an inspiring quote,</p>
+            <p>“I used to jog but the ice cubes kept falling out of my glass.”<br>David Lee Roth (Van Halen)</p>
         </section>
         <section class="customer">
-            <h3>Call to action it's time!</h3>
-            <p>Sign up here</p>
-            <button class="btn_two">Sign up</button>
+            <form action="action_page.php">
+                <div id="newsletter">
+                    <h2>Sign Up For Our Newsletter</h2>
+                    <p>Please enter your email in a box below.</p>
+                    <hr>
+    
+                    <label for="email"><b>Email</b></label>
+                    <input id="email" type="text" placeholder="Enter Email" name="email" required>
+    
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+            </form>
+            <div>
+                <button type="submit" formaction="#" class="btn_two">Sign Up!</button>
+            </div>
         </section>
     </main>
         <!-- Footer with social networks -->

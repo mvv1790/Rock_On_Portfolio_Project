@@ -117,6 +117,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    font-size: 20px;
 }
 
 .quote {

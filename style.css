@@ -113,6 +113,12 @@ h2 {
     margin: 80px;
 }
 
+.written_content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
 .quote {
     display: flex;
     justify-content: center;
@@ -152,6 +158,10 @@ h2 {
     justify-items: right;
     margin-top: 60px;
     border: 1px solid white;
+}
+
+.btn_two a:hover {
+    color: #1F2937;
 }
 
 /* social network styling */

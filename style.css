@@ -105,6 +105,7 @@ aside p {
     justify-content: center;
     justify-items: center;
     flex-direction: row;
+    padding-top: 20px;
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -136,6 +137,54 @@ aside p {
 
 .quote_section cite {
     padding: 20px 20px 60px 320px;
+}
+
+/*Call to action*/
+
+.action_call {
+    padding: 180px 0 0 0 ;
+    color: #E5E7EB;
+    position: relative;
+}
+
+.container h3 {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding-left: 120px;
+}
+
+.container p{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding-left: 120px;
+}
+.container {
+    background-color: #3882F6;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 26px;
+}
+
+.action_call button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300%, -300%);
+    float: right;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    width: 80px;
+}
+
+.btn_2:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 /* social network styling */

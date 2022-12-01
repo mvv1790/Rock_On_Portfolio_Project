@@ -121,6 +121,23 @@ aside p {
     text-align: center;
 }
 
+/*Quote section*/
+
+.quote_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote_section cite {
+    padding: 20px 20px 60px 320px;
+}
+
 /* social network styling */
 
 footer {

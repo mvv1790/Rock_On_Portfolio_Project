@@ -10,13 +10,26 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    justify-items: center;
     flex-direction: column;
 }
 
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
 }
 
 .nav_bar {
@@ -27,12 +40,29 @@ body {
 
 .nav_bar li {
     display: inline;
+    text-decoration: none;
 }
 
+.section_1 {
+    margin-top: 0;
+    display: flex;
+    background-color: #1F2937;
+}
 
+.hero_image {
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    padding-right: 25%;
+}
 
 aside {
-    color: pink;
+    width: 250px;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    flex-direction: column;
+    padding-left: 25%;
 }
 
 /* social network styling */

@@ -7,76 +7,54 @@
     <link rel="stylesheet" href="style.css">
     <title>Rock-On!</title>
 </head>
-<body>
-    <main class="wrapper">
-        <header class="header">
-            <section class="top_section">
-                <a class="logo" href="index.html">
-                    <h1">Rock-On!</h1>
-                </a>
-                <nav class="nav_bar">
-                    <ul>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">Jazzmaster</a></li>
-                        <li><a href="telecaster.html">Stratocaster</a></li>
-                        <li><a href="telecaster.html">Telecaster</a></li>
-                    </ul>
-                </nav>
-        </header>
-                    </section>
-            <section class="hero_greeting">
-                <div class="hero_h1 hero_p">
-                    <h1 class="hero_h1">Learn to play an electric guitar.<br>Become a rock star!</h1>
-                    <p class="hero_p"> This website is about the art of playing the electric guitar,<br>
-                        for begginer and a pro alike. Find out all about the world of music<br>
-                        right here.                
-                    </p>
-                    <button class="btn_one" type="submit" onclick="alert('Welcome home guitarrista!')">Sign up</button>
-                </div>
-                <div class="img_one"><img src="assets/images/telecaster.jpg" alt="Image of an electric guitar wrapped in smoke"></div>
-            </section>
-        <h2>Begin your journey here or learn something new.</h2>
-
-        <section class="images">
-                <img src="assets/images/jaguar(1).jpg" alt="Close up photo of a guitar hardware">
-                
-                <img src="assets/images/player (2)(1).jpg" alt="Photo of a person playing guitar">
-                
-                <img src="assets/images/stratocaster(1).jpg" alt="Photo of a guitar in black and white">
-                
-                <img src="assets/images/tele(1).jpg" alt="Close up image of a guitar's pickups and the bridge">
+<body class="wrapper">
+    <header>
+        <h2 class="logo">Rock-On!</h2>
+        <nav>
+            <menu class="nav_bar">
+                <li><a href="">Jaguar</a></li>
+                <li><a href="">Stratocaster</a></li>
+                <li><a href="">Telecaster</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <aside class="hero_text">
+                <h1>Play guitar!</h1>
+                <p>Then play some more.</p>            
+            </aside>
+            <div class="hero_image">
+                <img src="assets/images/telecaster.jpg" alt="">
+            </div>
+            
         </section>
-
-        <section class="written_content">
-            <p>Choose your instrument.</p>
-            <p>Practice.</p>
-            <p>Struggle and strive.</p>
-            <p>Make music.</p>
+        <section>
+            <figure>
+                <img src="assets/images/jaguar(1).jpg" alt="">
+                <figcaption>
+                    <p>Pick your instrument</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/images/player (2)(1).jpg" alt="">
+                <figcaption>
+                    <p>Get better</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/images/stratocaster(1).jpg" alt="">
+                <figcaption>
+                    <p>Struggle and strive</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/images/tele(1).jpg" alt="">
+                <figcaption>
+                    <p>Create music</p>
+                </figcaption>
+            </figure>
         </section>
-        <section class="quote">
-            <p>“I used to jog but the ice cubes kept falling out of my glass.”</p>
-            <p class="author">David Lee Roth (Van Halen)</p>
-        </section>
-
-        <!-- Newsletter signup section-->
-
-        <section class="customer">
-            <form action="action_page.php">
-                <div id="newsletter">
-                    <h2>Sign Up For Our Newsletter</h2>
-                    <p>Please enter your email in a box below.</p>
-                    <hr>
-    
-                    <label for="email"><b>Email</b></label>
-                    <input id="email" type="text" placeholder="Enter Email" name="email" required>
-    
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                    </label>
-                </div>
-            </form>
-                <button type="submit" formaction="#" class="btn_two" onclick="alert('Thank you for singing up to the newsletter!')">Sign Up!</button>
-        </section>
-
     </main>
         <!-- Footer with social networks -->
 
@@ -100,8 +78,9 @@
             <a class="owner" href="https://www.linkedin.com/in/valentin-myakishev-31b280217/" target="_blank"
                 aria-label="Visitn my linked in page (opens in a new tab)">© Valentin Myakishev</a>
         </footer>
-    
-        <!-- font awesome script-->
-        <script src="https://kit.fontawesome.com/1d81df9ef3.js" crossorigin="anonymous"></script>
+
+            <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/1d81df9ef3.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

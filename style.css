@@ -19,159 +19,19 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-/*nav menu, hero image and text*/
-
-.header {
-    background-color: #1F2937;
-    margin: 80px;
-    color: #F9FAF8;
-}
-
-.hero_greeting {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin: 80px;
-}
-
-.img_one {
+.nav_bar {
     display: flex;
     justify-content: right;
     justify-items: right;
-}
-
-.hero_h1 .hero_p {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: column;
-}
-
-.top_section {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 24px;
-    color: #F9FAF8; 
 }
 
 .nav_bar li {
     display: inline;
-    list-style-type: none;
 }
 
-.nav_bar a {
-    display: inline;
-    text-decoration: none;
-    color: #F9FAF8;
-}
 
-.nav_bar a:hover {
-    color: pink;
-}
 
-.hero_h1 {
-    font-size: 48px;
-    font-weight: 900;
-    
-}
-
-.hero_p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.img_one {
-    float: right;
-    opacity: 60%;
-}
-
-h2 {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-}
-
-/*images section*/
-
-.images{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: row;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0; 
-    padding: 20px;
-    margin: 80px;
-}
-
-.written_content {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    font-size: 20px;
-}
-
-.quote {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-weight:lighter; 
-    font-style: italic;
-    padding: 20px;
-    margin: 80px;
-}
-
-.customer {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    background-color: darkgray;
-    padding: 20px;
-    margin: 80px;
-    color: white;
-}
-
-.customer h2 {
-    color: white;
-}
-
-#email {
-    color: #1F2937;
-}
-
-/* buttons */
-
-.btn_one, .btn_two {
-    border-radius: 8%;
-    padding: 2px;
-    padding-left: 18px;
-    padding-right: 18px;
-    background-color: #3882F6;
-    color: white;
-    }
-
-.btn_two {
-    display: flex;
-    justify-content: right;
-    justify-items: right;
-    margin-top: 60px;
-    border: 1px solid white;
-    height: 22px;
-}
-
-.btn_two a:hover {
+aside {
     color: pink;
 }
 

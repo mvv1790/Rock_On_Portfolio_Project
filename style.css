@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 body {
@@ -51,14 +53,13 @@ body {
     margin-top: 0;
     display: flex;
     background-color: #1F2937;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 .hero_image {
     display: flex;
     justify-content: right;
-    opacity: 80%;
     padding: 0 0 0 100px;
     padding-bottom: 60px;
 }
@@ -67,11 +68,16 @@ body {
     border-radius: 22px;
 }
 
+video {
+    opacity: 0.7;
+}
+
 aside {
     display: flex;
     justify-content: left;
     flex-direction: column;
     color: #F9FAF8;
+    margin: 0;
 }
 
 aside h1 {
@@ -205,14 +211,19 @@ footer {
 
 .social-networks i {
     display: inline;
-    justify-content: space-evenly;
-    font-size: 200%;
+    justify-content: center;
+    font-size: 280%;
     color: white;
+}
+
+i:hover {
+    color: pink;
 }
 
 .owner {
     display: flex;
     justify-content: center;
+    padding-left: 40px;
     font-size: 100%;
     font-family: Oswald, sans-serif;
     text-decoration: none;

@@ -233,3 +233,110 @@ i:hover {
 footer a:hover {
     color: pink;
 }
+
+@media only screen and (max-width: 767px) {
+
+    .wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+    #logo {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 18px;
+      }
+      
+      
+    .nav_bar {
+    padding: 20px 20px 20px 20px;
+    }
+    
+    .nav_bar li {
+    display: inline;
+    padding: 6px 6px 6px 6px;
+    font-size: 14px;
+    }
+    
+    .header {
+    flex-direction: column;
+    }
+
+    .hero_image {
+        display: none;
+    }
+    
+    aside {
+    margin: 8px 0;
+    text-align: center;
+    }
+    
+    aside h1 {
+    font-size: 32px;
+    }
+    
+    aside p {
+    font-size: 16px;
+    }
+    
+    .btn_1 {
+    height: fit-content;
+    width: 40%;
+    margin: 0 30% 0 30%;
+    }
+    
+    .image_section {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    
+    .image_section img {
+    width: 140px;
+    height: auto;
+    margin: 10px;
+    }
+    
+    .quote_section {
+    font-size: 24px;
+    padding: 20px 0;
+    }
+    
+    .quote_section cite {
+    padding: 20px;
+    }
+    
+    .action_call {
+        display: none;
+    }
+    
+    .container {
+    width: 90%;
+    }
+    
+    .container h3,
+    .container p {
+    padding-left: 0;
+    }
+    
+    .action_call button {
+    float: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transform: none;
+    }
+    
+    footer {
+    margin: 20px;
+    }
+    
+    .social-networks {
+    padding-top: 10px;
+    }
+    
+    .owner {
+    padding-left: 0;
+    }
+    }
